@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+    function changeLink() {
+    var input = document.getElementById("input").value;
+    var output = input.replace("twitter.com", "nitter.net");
+    window.open(output, "_blank");
+    }
+</script>
+</head>
+<body>
+<p>gir linki, gör etkiyi:</p>
+<input type="text" id="input" placeholder="https://twitter.com/..." size="40">
+<button onclick="changeLink()">Düzelt</button>
+</body>
+</html>
